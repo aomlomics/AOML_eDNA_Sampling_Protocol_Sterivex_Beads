@@ -71,7 +71,15 @@ filter_material: # cellulose ester
 | Alyse Larkin | UC-Irvine | <https://orcid.org/0000-0003-4466-0791> | 2023-11-27 |
 | Adam Martiny | UC-Irvine | <https://orcid.org/0000-0003-2829-4314> | 2023-11-27 |
 
-## RELATED PROTOCOLS
+### Related Protocols
+
+- This section contains protocols that should be known to users of this protocol.
+- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
+- External Protocols: Protcols from manufacturers or other groups. 
+- Include the link to each protocol.
+- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+
+#### Internal Protocols
 
 | PROTOCOL NAME | LINK  | VERSION | RELEASE DATE|
 | ------------- | ------------- | ------------- | ------------- |
@@ -81,13 +89,17 @@ filter_material: # cellulose ester
 | NOAA/AOML PCR Protocol 18S rRNA V9 (EMP) | <https://github.com/aomlomics/protocols/blob/main/markdown/protocol_pcr_ssu18sv9_emp.md> | 1.1.0 | 2024-11-16 |
 | NOAA/AOML Metagenome Library Prep Protocol (Illumina DNA Prep) | <https://github.com/aomlomics/protocols/blob/main/markdown/protocol_libprep_metag_illumina.md> | 1.1.0 | 2024-11-16 |
 
-## RELATED EXTERNAL PROTOCOLS
+#### External Protocols
 
 | PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
 | ------------ | ------------ | ------------ | ---------- |
 | Not applicable |
 
 ### Protocol Revision Record
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
@@ -96,10 +108,6 @@ filter_material: # cellulose ester
 | 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML frontmatter |
 | 1.2.0 | 2025-01-08 | Clarified the concentration of bleach throughout |
 | 1.2.1 | 2025-04-22 | Corrected storage temperature |
-
-- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
-- Release date is the date when a given protocol version was finalised.
-- Description of revisions includes a brief description of what was changed relative to the previous version.
 
 ### Acronyms and Abbreviations
 
@@ -131,7 +139,7 @@ This protocol is used to pump [sea water](environmental_medium) samples collecte
 
 ### Spatial coverage and environment(s) of relevance
 
-This protocol can be used across any marine environment to effectively collect water samples for biodviersity monitoring. This protocol can tolerate a wide range of depths for sampling - NOAA's AOML samples from 1m up to 1000m.
+This protocol can be used across any marine environment to effectively collect water samples for biodiversity monitoring. This protocol can tolerate a wide range of depths for sampling - NOAA's AOML samples from 1m up to 1000m.
 
 ## PERSONNEL REQUIRED
 
@@ -139,11 +147,11 @@ One person with pipetting experience. Research vessel experience is recommended 
 
 ### Safety
 
-There are no major safety concerns with this protocol. Standard precuations should be taken such as wearing PPE at all times to avoid skin and eye exposure especially when working with bleach.
+There are no major safety concerns with this protocol. Standard precautions should be taken such as wearing PPE at all times to avoid skin and eye exposure especially when working with bleach.
 
 ### Training requirements
 
-Standard moleculary biology training including sterile technique and pipetting technique is required to properly conduct this protocol. Research vessel experience is recommended. Personnel should be trained in filtering protocol prior to conducting on ship.
+Standard molecular biology training including sterile technique and pipetting technique is required to properly conduct this protocol. Research vessel experience is recommended. Personnel should be trained in filtering protocol prior to conducting on ship.
 
 ### Time needed to execute the procedure
 
@@ -182,53 +190,52 @@ The process of setting up sampling equipment and filtering seawater will take ~2
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
-- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+- Remark: For example, some of the consumables may need to be sterilized, some commercial solutions may need to be diluted or shielded from light during the operating procedure.
 
 ## STANDARD OPERATING PROCEDURE
 
-### Protocol
+### Sampling Protocol
 
-### Sampling
+#### Preparing Sterivex Filters
 
-Preparation
+1. Wearing gloves, prepare the Sterivex filters by carefully adding 1 tube of Zymo ZR BashingBeads. It is recommended to cut off the top half of a 1000 uL tip and place it into the top of the Sterivex filter to act as a funnel while pouring beads into the Sterivex. 
+2. Label each Sterivex filter with a pre-printed sticker.
+
+#### Preparing Sampling Equipment
 
 1. Prepare a 1:20 dilution bleach solution by mixing 1 part household bleach (5-9% sodium hypochlorite) with DI water and storing in an 8 L carboy.
-2. Wearing gloves, prepare the Sterivex filters by carefully adding 1 tube of Zymo ZR BashingBeads. It is recommended to cut off the top half of a 1000 uL tip and place it into the top of the Sterivex filter to act as a funnel while pouring beads into the Sterivex. 
-3. Label each Sterivex filter with a pre-printed sticker.
-4. Attach hose-barb adapter to one end of peristaltic pump tubing.
-5. Attach serological pipette to other end of peristaltic pump tubing.
-6. Sterilize 60 mL syringe with 1:20 dilution bleach solution.
+2. Attach hose-barb adapter to one end of peristaltic pump tubing.
+3. Attach serological pipette to other end of peristaltic pump tubing.
+4. Sterilize 60 mL syringe with 1:20 dilution bleach solution.
+5. Rinse 20-L carboy 2 times with ~100 mL of sample water (200 mL total)
+6. Wearing gloves, collect water from the flow-through system (or Niskin bottles) into 20-L carboy.
+7. Place serological pipettes into bag(s) or bottle(s), ensuring the other end of the tubing (with hose-barb) is flowing into the graduated cylinders.
+8. Turn on the pump and run ~100 mL of seawater to prime the tubing.
+9. Run the pump at 100-150 rpm.
+10. Pause the pump and discard water.
 
-Sampling
-
-1. Rinse 20-L carboy 2 times with ~100 mL of sample water (200 mL total)
-2. Wearing gloves, collect water from the flow-through system (or Niskin bottles) into 20-L carboy.
-3. Place serological pipettes into bag(s) or bottle(s), ensuring the other end of the tubing (with hose-barb) is flowing into the graduated cyclinders.
-4. Turn on the pump and run ~100 mL of seawater to prime the tubing.
-5. Run the pump at 100-150 rpm.
-6. Pause the pump and discard water.
-
-Filtration
+#### Sample Filtration
 
 1. Attach the Sterivex filter input to the hose-barb that is already attached to the tubing outflow. The filter should screw on tightly. Avoid handling Sterivex filter input or output ends.
-2. Run the pump and filter seawater until ~8 L has been filtered, measured using the graduated cyclinders or another container.
-3. On the log sheet, record the date, time, latitute, longitude, volume filtered and any notes about the sample. This information should be entered into an Excel spreadsheet every few days to maintain a digital copy in addition to the paper copy.
+2. Run the pump and filter seawater until ~8 L has been filtered, measured using the graduated cylinders or another container.
+3. On the log sheet, record the date, time, latitude, longitude, volume filtered and any notes about the sample. This information should be entered into an Excel spreadsheet every few days to maintain a digital copy in addition to the paper copy.
 4. Pause pump and open pump head valves to release pressure.
 5. Unscrew and remove Sterivex filters from the hose-barb adapters.
 6. Gently remove any excess seawater from the filters using a sterilized 60 mL syringe.
 7. Cap the bottom end (outlet) of the Sterivex filter with a female luer-lock cap.
 8. In between filtering different water samples, rinse out the tubing with 1:20 dilution bleach solution, followed by DI water. Then proceed with the next volume of seawater.
 
-Sample preservation
+#### Sample Preservation
 
 1. Using a P1000 (1000 uL pipette), gently add 1000 uL of DNA/RNA Shield preservative into the Sterivex.
 2. Cap the top end (inlet) of the Sterivex with a male luer-lock cap.
 
-Storage
+#### Storage
 
 1. Freeze at ≤ –20 °C until extraction.
 
-Post-Sampling
+#### Post-Sampling
+
 1. Return the bottle of DNA/RNA Shield to a refrigerator to reduce contamination.
 2. Run ~1 L of 5% bleach through the lines to clean pump tubing. Repeat with ~1 L of deionized water.
 3. Rinse the 20 L collection carboy 3 times with ~0.5 L DI water (1.5 L total) after sampling.
@@ -245,7 +252,7 @@ Leaks
 
 Clogged Filter
 
-- If a filter is clogged, turn valves and connections off and attempt to clear obstructions (i.e. large chunks of sediment or algae). Make note of any abnormal conditions and try to pump the full volume of seawater through the filter. In more productive areas, especially surface samples, we would frequently have filters that could not take the full volume. Since there are only two pumps and multiple sample depths at one time, it was common for us to use a cut-off time before starting next sample (~45 min).
+- If a filter is clogged, turn valves and connections off and attempt to clear obstructions (i.e. large chunks of sediment or algae). Make note of any abnormal conditions and try to pump the full volume of seawater through the filter. In more productive areas, especially surface samples, we would frequently have filters that could not take the full volume. Since there are only two pumps and multiple sample depths at one time, it was common for us to use a cut-off time before starting the next sample (~45 min).
 
 ## REFERENCES
 
