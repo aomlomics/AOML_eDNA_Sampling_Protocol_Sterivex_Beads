@@ -1,7 +1,7 @@
 ---
 # MIOP terms
 methodology_category: sample collection
-project: NOAA Atlantic Oceanographic and Meteorological Laboratory GO-SHIP
+project: "NOAA Atlantic Oceanographic and Meteorological Laboratory Omics Program; https://github.com/aomlomics/protocols; https://zenodo.org/communities/aomlomics"
 purpose: biodiversity assessment objective [OBI:0001969]
 analyses: filtration [OBI:0302885], environmental material collection process [OBI:0600012]
 geographic_location: Atlantic Ocean [GAZ:00000344], Pacific Ocean [GAZ:]
@@ -17,7 +17,7 @@ personnel_required: 1
 language: en
 issued: 2024-08-15
 audience: scientists
-publisher: NOAA's Atlantic Oceanographic and Meteorological Laboratory
+publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
 hasVersion: 1
 license: CC0 1.0 Universal
 maturity level: mature
