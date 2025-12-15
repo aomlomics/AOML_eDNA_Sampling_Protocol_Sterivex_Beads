@@ -105,9 +105,10 @@ filter_material: # cellulose ester
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2023-11-27 | Initial release |
 | 1.0.1 | 2024-10-23 | Formatting edits |
-| 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML frontmatter |
+| 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML front matter |
 | 1.2.0 | 2025-01-08 | Clarified the concentration of bleach throughout |
 | 1.2.1 | 2025-04-22 | Corrected storage temperature |
+| 1.2.2 | 2025-12-15 | Updated YAML front matter |
 
 ### Acronyms and Abbreviations
 
