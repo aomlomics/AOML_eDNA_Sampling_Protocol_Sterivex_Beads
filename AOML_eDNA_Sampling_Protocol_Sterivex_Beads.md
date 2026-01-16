@@ -32,8 +32,6 @@ samp_collect_method: CTD rosette
 samp_collect_device: Niskin bottle
 samp_size: 1000
 samp_size_unit: mL
-
-# FAIRe - correct values (these are examples from Katie) and integrate with above
 samp_store_temp: -80
 samp_store_sol: DNA/RNA Shield
 samp_mat_process: Samples were filtered using a peristaltic pump (pore size 0.45 micrometers).
