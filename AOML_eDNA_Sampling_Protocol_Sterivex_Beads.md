@@ -18,7 +18,7 @@ language: en
 issued: 2024-08-15
 audience: scientists
 publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
-hasVersion: 1
+hasVersion: 1.2.4
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -103,6 +103,7 @@ filter_material: polyethersulfone
 | 1.2.1 | 2025-04-22 | Corrected storage temperature |
 | 1.2.2 | 2025-12-15 | Updated YAML front matter |
 | 1.2.3 | 2026-01-16 | Updated YAML front matter |
+| 1.2.4 | 2026-01-16 | Updated YAML front matter with version number |
 
 ### Acronyms and Abbreviations
 
